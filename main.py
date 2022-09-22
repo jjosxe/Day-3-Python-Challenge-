@@ -29,6 +29,16 @@ print(paragraph.count(ask3))
 
 list = list_1.split(" ")
 print(list)
-list=len()
 
+len_list=len(list)
+print(len_list)
+
+print("The first letter of this paragraph is " + paragraph[0])
+print("The lasta letter of this paragraph is " + paragraph[-1])
+
+
+
+paragraph= "I pledge allegiance to the Flag of the United States of America, and to the Republic for which it stands, one Nation under God, indivisible, with liberty and justice for all"
+
+print(paragraph[::-1])
 
