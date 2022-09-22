@@ -7,6 +7,8 @@ ask1= input("Choose 1 letter from the Alphabet:   ")
 ask2= input("Choose 1 letter from the Alphabet:   ")
 ask3= input("Choose 1 letter from the Alphabet:   ")
 
+
+
 print(input("The letters you chose were: " + ask1 +ask2 + ask3))
 
 letters= []
