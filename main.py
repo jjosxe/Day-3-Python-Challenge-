@@ -38,7 +38,10 @@ print("The lasta letter of this paragraph is " + paragraph[-1])
 
 
 
-paragraph= "I pledge allegiance to the Flag of the United States of America, and to the Republic for which it stands, one Nation under God, indivisible, with liberty and justice for all"
+paragraph= "I", "pledge", "allegiance", "to", "the", "Flag", "of", "the", "United", "States", "of", "America", "and", "to", "the", "Republic", "for", "which","it", "stands", "one" ,"Nation","under", "God", "indivisible", "with", "liberty", "and", "justice", "for", "all"
 
 print(paragraph[::-1])
 
+print(' '.join(paragraph))
+my_bool = paragraph
+my_bool = ("python")
