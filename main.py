@@ -1,8 +1,8 @@
 #jose, rebeca, katherine 
 
 
-Paragraph = "I pledge allegiance to the Flag of the United States of America, and to the Republic for which it stands, one Nation under God, indivisible, with liberty and justice for all"
-
+paragraph = "I pledge allegiance to the Flag of the United States of America, and to the Republic for which it stands, one Nation under God, indivisible, with liberty and justice for all"
+list_1 = paragraph.lower()
 ask1= input("Choose 1 letter from the Alphabet:   ")
 ask2= input("Choose 1 letter from the Alphabet:   ")
 ask3= input("Choose 1 letter from the Alphabet:   ")
@@ -16,3 +16,19 @@ letters.append(ask1)
 letters.append(ask2)
 letters.append(ask3)
 print(letters)
+
+
+
+print(ask1 + " appears:  " )
+print(paragraph.count(ask1)) 
+print(ask2 +" appears:  " )
+print(paragraph.count(ask2))
+print(ask3 +" appears:  " )
+print(paragraph.count(ask3))
+
+
+list = list_1.split(" ")
+print(list)
+list=len()
+
+
